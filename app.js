@@ -8,12 +8,12 @@ var express = require('express');
 var app = express();
 
 //开发环境
-//app.use('/dev', express.static(__dirname + '/views'));
-//app.use('/dev/public', express.static(__dirname + '/public'));
+app.use('/', express.static(__dirname + '/views'));
+app.use('/public', express.static(__dirname + '/public'));
 
 //部署环境
-app.use('/', express.static(__dirname + '/dist/views'))
-app.use('/public', express.static(__dirname + '/dist/public'))
+// app.use('/', express.static(__dirname + '/dist/views'))
+// app.use('/public', express.static(__dirname + '/dist/public'))
 
 
 app.listen(16083, function(){
