@@ -1,0 +1,110 @@
+page-house-info {
+    ion-title {
+        text-align: center;
+        font-size: 18px;
+        margin-right: 5vh;
+        .toolbar-title.toolbar-title-md {
+            color:#ea5404;
+            font-weight: bold;
+        }
+    }
+    ion-content {
+        position: relative;
+    }
+    .search-bar-list {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        top: 1vh;
+        left: 1vh;
+        .search-bar-input{
+            width:75%;
+            padding: 4px;
+        }
+        .searchbar-md {
+            background: inherit;
+            padding: 0;
+        }
+        .search-bar-add {
+            width: 30%;
+            padding: 4px;
+        }
+        .button-clear-md {
+            color: #000;
+            font-size: 16px;
+        }
+    }
+    ion-icon{
+        margin-right: 1vh;
+    }
+    .content-floor-info {
+        width: 100%;
+        margin-top: 80px;
+        background: #fff;
+        min-height: 200px;
+        .content-floor-title {
+            font-size: 16px;
+            padding: 15px 0 10px 15px;
+        }
+        ion-icon{
+            color: #ea5404;
+        }
+    }
+
+    .list-content-info {
+        // width: 100%;
+        li {
+            display: flex;
+            font-size: 14px;
+            line-height: 24px;
+            .list-label {
+                width: 24%;
+                text-align: right;
+                padding: 5px;
+            }
+            .list-content {
+                width: 76%;
+                text-align: left;
+                padding: 5px;
+                color: #918888
+            }
+            .list-content-1 {
+                height: 32px!important;
+                overflow: hidden;
+                .item-md{
+                    padding-left: 0 ;
+                }
+            }
+            
+        }
+    }
+    ion-item {
+        height: 16px!important;
+        font-size: 14px;
+        /deep/ {
+            span.button-inner {
+                height: 16px!important;
+            }
+            ion-select.select.select-md.ng-valid.ng-dirty.ng-touched {
+                padding: 0!important;
+            }
+            .input-wrapper {
+                font-size: 14px!important;
+                padding: 0!important;
+                height: 22px;
+            }
+        }
+    }
+    .houseInput {
+        width: 70%;
+        border: none;
+        border-radius: 2px;
+        background: #efeff4;
+        padding: 8px;
+    }
+    .my-publish-btn {
+        width: 95%;
+        margin: 5% 2.5%;
+        font-size: 16px;
+    }
+}

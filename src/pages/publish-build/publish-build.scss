@@ -1,0 +1,60 @@
+page-publish-build {
+    ion-title {
+        text-align: center;
+        font-size: 18px;
+        margin-right: 5vh;
+        .toolbar-title.toolbar-title-md {
+            font-weight: bold;
+            color:#ea5404;
+        }
+    }
+    ion-list{
+        ion-list-header{
+           .label-md{
+               font-size: 18px;
+               color: black;
+               ion-icon{
+                   color: #ea5404;
+                   margin-right: 1vh;
+               }
+           } 
+        }
+        ion-item{
+            .label-md{
+                text-align: right;
+                margin-bottom: 0;
+                color: #646464;
+                .houseInput {
+                    width: 78%;
+                    border: none;
+                    border-radius: 2px;
+                    background: #efeff4;
+                    padding: 10px;
+                    margin-left: 1vh;
+                }
+            }
+            ion-select{
+                margin-left: 1vh;
+                color: #646464;
+                border-radius: 2px;
+                max-width: 78%;
+                background-color: #efeff4;
+                margin-top: 2vh;
+                margin-right: 1.5vh;
+                
+            }  
+            .select-md{
+                width: 76%;
+                border: none;
+                border-radius: 2px;
+                padding: 10px;
+                margin-left: 2vh;
+            }
+             
+        }
+        .btns{
+            padding: 1vh 2vh;
+        } 
+    }
+        
+}

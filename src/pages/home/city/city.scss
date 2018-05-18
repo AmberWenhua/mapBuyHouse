@@ -1,0 +1,18 @@
+page-city {
+    ion-navbar{
+        .back-button.show-back-button{
+            display: inline-block;
+        }
+        .toolbar-title-md{
+            color: #ea5404;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+    } 
+    ion-icon{
+        float: left;
+        margin-right: 1vh;
+        color: #FF3300;
+    }
+}
